@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+ul, li{
+    list-style: none;
+}
+a a:hover{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Basic CSS End*/
+/*Header Section Code Start*/
+.full{
+    width: 100%;
+}
+.content{
+ width: 1170px;
+    margin: auto;
+}
+.full-header{
+    background: red;
+}
+.full-header .logo{
+    width: 20%;
+    float: left;
+}
+.full-header .menu{
+    width: 80%;
+    float: left;
+    text-align:right;
+}
+.full-header .menu ul li{ 
+    display: inline;
+}
+.full-header .menu ul li a{ 
+    display: inline;
+}
+.full-header .menu
+.full-header
+/*Header Section Code End*/
+/*Slidersection Code Start*/
+
+
+/*Slidersection Code End*/

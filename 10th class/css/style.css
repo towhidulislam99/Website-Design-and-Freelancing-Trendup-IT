@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+.full{
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+img{
+    vertical-align: middle;
+}
+/*Basic css ends*/
+/*Header part starts*/
+.full-header{
+    background: #ffffff;
+}
+.full-header .row .logo{
+    width: 20%;
+    float: left;
+}
+.full-header .row .logo a{
+    line-height: 100px;
+}
+.full-header .row .menu{
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+.full-header .row .menu ul li{
+    display: inline;
+}
+.full-header .row .menu ul li a{
+    line-height: 100px;
+    padding: 40px 27.5px;
+    font-size: 15px;
+    color: #484c55;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    position: relative;
+}
+.full-header .row .menu ul li a:hover, .full-header .row .menu ul li a.active{
+    color: #49cbcd;
+    background: #f8f9fb;
+}
+.full-header .row .menu ul li a:before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #49cbcd;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+}
+.full-header .row .menu ul li a:hover::before, .full-header .row .menu ul li a.active:before{
+    width: 100%;
+}
+/*Header part ends*/
+/*Banner part starts*/
+.full-banner{
+    background: url("../images/Banner.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 138px;
+    padding-bottom: 146px;
+    position: relative;
+}
+.full-banner h1{
+    font-size: 63px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.full-banner p{
+    font-size: 23px;
+    line-height: 37px;
+    color: #ffffffff;
+    padding-top: 28px;
+    padding-bottom: 57px;
+}
+.full-banner a{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 22px 42px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+}
+.full-banner a:hover{
+    background: #ffffff;
+    color: #49cbcd;
+}
+.full-banner i.fa-chevron-left{
+    color: #49cbcd;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background: #ffffff;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.full-banner i.fa-chevron-right{
+    color: #49cbcd;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background: #ffffff;
+    display: grid;
+    align-items: center;
+    font-size: 28px;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.full-banner
+/*Banner part ends*/
